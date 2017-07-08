@@ -73,3 +73,30 @@ nav img{
   font-size: 2rem;
   line-height: 1.2;
 }
+
+/* -------------------------icons------------------------- */
+
+.icons{
+  display: flex;
+  justify-content: center;
+}
+
+.services{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 5rem;
+  margin: 3rem;
+  height: 8rem;
+}
+
+.services img{
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.services img.specwidth {
+  width: 3.5rem;
+
+}
