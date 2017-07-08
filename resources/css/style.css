@@ -5,6 +5,9 @@
 html{
   font-family: helvetica;
   font-size: 18px;
+}
+
+body{
   line-height: 1.4;
 }
 
@@ -98,5 +101,26 @@ nav img{
 
 .services img.specwidth {
   width: 3.5rem;
+}
 
+/* -------------------------content------------------------- */
+
+.content{
+  display: flex;
+  justify-content: center;
+}
+
+.info{
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 5rem;
+}
+
+.info h2{
+  width: 10rem;
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
