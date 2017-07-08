@@ -1,6 +1,4 @@
-/* {
-  border: 1px solid red;
-}*/
+
 
 html{
   font-family: helvetica;
@@ -54,7 +52,11 @@ nav img{
 }
 
 .menu li{
-  margin: 1rem 2rem 1rem 0rem;
+  margin-right: 2rem;
+}
+
+.menu640{
+  display: none;
 }
 
 /* ----------banner---------- */
@@ -142,10 +144,16 @@ footer img{
 
 /* -------------------------@media queries------------------------- */
 
+/* ----------1024px---------- */
+
 @media only screen and (max-width: 1024px){
   header{
     height: 22rem;
     padding: 0;
+  }
+
+  nav{
+    padding: 1rem 0;
   }
 
   .container{
@@ -160,5 +168,89 @@ footer img{
 
   .banner h1{
     font-size: 1.33rem;
+  }
+}
+
+/* ----------640px---------- */
+
+@media only screen and (max-width: 640px){
+  header{
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .whitelogo span{
+    display: none;
+  }
+
+  .menu ul{
+    display: none
+  }
+
+  .menu640{
+    display: block;
+    margin-right: 2rem;
+  }
+
+  .banner{
+    width: 100%;
+    margin-top: 9rem;
+    margin-right: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+
+  .banner h1{
+    font-size: 1rem;
+  }
+
+  .icons{
+    flex-direction: column;
+    margin: 0 0 3.77rem 0;
+    padding-top: 3.77rem;
+    align-items: center;
+  }
+
+  .services{
+    margin-bottom: 0;
+    margin-top: 1.54rem;
+  }
+
+  .services img.specwidth{
+    padding: 0;
+    margin: 0;
+  }
+
+  .services span{
+    font-size: 0.77rem;
+  }
+
+  .content{
+    flex-direction: column;
+  }
+
+  .info{
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .info h2{
+    width: 100%;
+    text-align: center;
+  }
+
+  .info p{
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    font-size: 0.77rem;
+  }
+
+  footer span{
+    display: none;
+  }
+
+  footer{
+    justify-content: center;
   }
 }
